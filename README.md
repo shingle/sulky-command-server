@@ -1,7 +1,7 @@
 
 # sulky-command-server
 
-Fork from fis's rep
+Fork from fis's repo
 
 ## Usage
 
