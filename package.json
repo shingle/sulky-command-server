@@ -1,6 +1,6 @@
 {
-  "name": "fis-command-server",
-  "description": "fis server command.",
+  "name": "sulky-command-server",
+  "description": "sulky server command.",
   "version": "0.7.1",
   "author": "FIS Team <fis@baidu.com>",
   "homepage": "http://fis.baidu.com/",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fis-dev/fis-command-server.git"
+    "url": "https://github.com/shingle/sulky-command-server"
   },
   "engines": {
     "node": ">= 0.8.0"

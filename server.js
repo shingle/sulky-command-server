@@ -9,7 +9,7 @@ var server = require('./lib/server.js');
 
 exports.name = 'server';
 exports.usage = '<command> [options]';
-exports.desc = 'launch a php-cgi server';
+exports.desc = 'launch a server';
 exports.register = function(commander) {
     function getRoot(root){
         if(fis.util.exists(root)){
