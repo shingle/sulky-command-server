@@ -1,4 +1,4 @@
-# fis-command-server
+# sulky-command-server
 
 ## Usage
 
