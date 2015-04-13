@@ -3,12 +3,11 @@
   "description": "sulky server command.",
   "version": "1.2.0",
   "author": {
-    "name": "FIS Team",
-    "email": "fis@baidu.com"
+    "name": "YuHui",
+    "email": "yuhui@suneee.com"
   },
-  "homepage": "http://fis.baidu.com/",
-  "keywords": [
-    "fis"
+   "keywords": [
+    "sulky"
   ],
   "repository": {
     "type": "git",
