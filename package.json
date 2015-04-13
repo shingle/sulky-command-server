@@ -1,8 +1,11 @@
 {
   "name": "sulky-command-server",
   "description": "sulky server command.",
-  "version": "1.0.1",
-  "author": "FIS Team <fis@baidu.com>",
+  "version": "1.0.0",
+  "author": {
+    "name": "FIS Team",
+    "email": "fis@baidu.com"
+  },
   "homepage": "http://fis.baidu.com/",
   "keywords": [
     "fis"
@@ -14,14 +17,39 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha test/ut --recursive"
+    "test": "mocha test/ut --recursive",
+    "start": "node index.js"
   },
   "dependencies": {
     "chokidar": "0.10.5",
-    "express-http-proxy": "^0.5.0",
     "resolve": "1.1.6",
     "step": "0.0.5"
-  }
+  },
+  "gitHead": "34b7fa7770965968e7dd5955eb95a1780d4444d0",
+  "bugs": {
+    "url": "https://github.com/shingle/sulky-command-server/issues"
+  },
+  "_id": "sulky-command-server@1.0.0",
+  "_shasum": "6fd76a988fcf2a5da40d713dd006ec60f791d043",
+  "_from": "sulky-command-server@>=1.0.0 <2.0.0",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "sulky",
+    "email": "hongfei@suneee.com"
+  },
+  "dist": {
+    "shasum": "6fd76a988fcf2a5da40d713dd006ec60f791d043",
+    "tarball": "http://registry.npmjs.org/sulky-command-server/-/sulky-command-server-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "sulky",
+      "email": "hongfei@suneee.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/sulky-command-server/-/sulky-command-server-1.0.0.tgz"
 }
