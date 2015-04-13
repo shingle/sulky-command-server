@@ -1,7 +1,7 @@
 {
   "name": "sulky-command-server",
   "description": "sulky server command.",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "author": {
     "name": "FIS Team",
     "email": "fis@baidu.com"

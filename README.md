@@ -6,32 +6,20 @@ Fork from fis's repo
 ## Usage
 
 ```
+  $ sulky server
+
   Usage: server <command> [options]
 
   Commands:
 
     start                  start server
-    stop                   shutdown server
-    restart                restart server
-    info                   output server info
     open                   open document root directory
     clean                  clean files in document root
-    install <name>         install server framework
 
   Options:
 
-    -h, --help                     output usage information
-    -p, --port <int>               server listen port
-    --root <path>                  document root
-    --type <php|java|node>         process language
-    --rewrite [script]             enable rewrite mode
-    --repos <url>                  install repository
-    --timeout <seconds>            start timeout
-    --php_exec <path>              path to php-cgi executable file
-    --php_exec_args <args>         php-cgi arguments
-    --php_fcgi_children <int>      the number of php-cgi processes
-    --php_fcgi_max_requests <int>  the max number of requests
-    --registry <registry>          set npm registry
-    --include <glob>               clean include filter
-    --exclude <glob>               clean exclude filter
+    -h, --help            output usage information
+    -a,--api_path <path>  要代理的路径 - 将/api/xxx的请求转发到proxy_uri中的xxx
+    -p,--proxy_uri <uri>  代理路径 - http://api.server.com/v2/xxx
+
 ```
