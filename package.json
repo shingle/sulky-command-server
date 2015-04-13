@@ -1,7 +1,7 @@
 {
   "name": "sulky-command-server",
   "description": "sulky server command.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": {
     "name": "YuHui",
     "email": "yuhui@suneee.com"

@@ -12,7 +12,6 @@ var app = express();
 var url = require('url');
 var proxy = require('proxy-middleware');
 
-console.log(args, apiPath, proxy_uri)
 
 apiPath && app.use('/api', proxy(url.parse(proxy_uri)));
 
