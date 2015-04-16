@@ -22,9 +22,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "chokidar": "0.10.5",
-    "resolve": "1.1.6",
-    "step": "0.0.5"
+    "open": "0.0.5",
+    "express": "^4.12.3",
+    "proxy-middleware": "^0.11.0",
+    "rc": "^1.0.1"
   },
   "gitHead": "34b7fa7770965968e7dd5955eb95a1780d4444d0",
   "bugs": {
